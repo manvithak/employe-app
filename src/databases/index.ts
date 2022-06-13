@@ -1,6 +1,5 @@
 import Sequelize from 'sequelize';
 import { NODE_ENV, DB_HOST, DB_PORT, DB_USER, DB_PASSWORD, DB_DATABASE } from '@config';
-import UserModel from '@models/users.model';
 import EmployeModel from '@models/employe.model';
 import { logger } from '@utils/logger';
 
